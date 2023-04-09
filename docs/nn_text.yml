@@ -1,0 +1,16 @@
+tags:
+  - name: Neural Network (Text)
+get:
+  description: Sentimen akan di analisa dengan model Neural Network berdasarkan teks
+parameters:
+  - name: text
+    in: formData
+    required: true
+    type: string
+responses:
+    '200':
+      description: Successful response
+    '400':
+      description: Bad Request
+    '500':
+      description: Internal Server Error
